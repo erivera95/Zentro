@@ -1,13 +1,14 @@
+import React from 'react';
 import './footer.css';
 
-function footer() {
+function FT() {
     return (
-        <div className="div-footer">
-            <footer className="footer">
 
+            <footer>
+                <h4>Develop by Zegnal</h4>
             </footer>
-        </div>
+
     );
 }
 
-export { footer };
+export { FT };
