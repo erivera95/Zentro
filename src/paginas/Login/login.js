@@ -1,15 +1,46 @@
 import React from 'react';
 import './login.css';
+// import Link from 'react-router-dom';
 
 //Importacion de componentes
 import { FT } from '../componentesComunes/footer/footer';
 
-function login() {
+export default function LG() {
+    console.log("entre a login");
     return (
-        <div >
-            <h1>Hola</h1>
-            <FT />
-        </div>
+        <div className="body">
+            <div className="SeccionCentral">
+                <form /*onSubmit={handleSubmit}*/ className="entradas">
+                    <h2>Iniciar sesión</h2>
+
+                    {/* <label>Usuario</label> */}
+
+                    <input
+                        className="usuario"
+                        placeholder="Usuario"
+                        type="text"
+                        name="usuario"
+                    />
+
+                    <input
+                        placeholder="Contraseña"
+                        className="pass"
+                        type="password"
+                        name="Pass"
+                    />
+
+                    <a href="/home">
+                        <button type="button" className="boton">Entrar</button>
+                    </a>
+                    
+
+
+
+                </form>
+                <FT />
+            </div>
+
+
+        </div >
     );
 }
-export { login };

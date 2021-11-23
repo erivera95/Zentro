@@ -1,4 +1,32 @@
-.div-header{
-    margin: 0;
-    padding: 0;
+.header {
+    position: absolute;
+    
+    top: 0;
+    width: 100%;
+    background: #1b43843c;
+    height: 70px;
+    box-shadow: 0 0 30px rgba(8, 7, 16, 0.6);
+}
+
+nav {
+    width: 95%;
+    height: 70px;
+    text-align: right;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    color: white;
+    width: 100%;
+    display: inline;
+    
+}
+
+nav ul li a{
+    color: white;
+    width: 100%;
+    display: inline;
+    text-decoration: none;
+    padding-left: 3%;
 }

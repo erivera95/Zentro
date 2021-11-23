@@ -1,0 +1,80 @@
+.body {
+    
+    background: linear-gradient( #13477c 0%,#050e2e 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+
+}
+
+.SeccionCentral {
+    /* background-color: tomato; */
+    /* padding: 200px; */
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SeccionCentral h2{
+    /* margin:0; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SeccionCentral label{
+    color: white;
+    justify-content: center;
+} 
+
+.entradas{
+    box-shadow: 0 0 30px rgba(8,7,16,0.6);
+    padding: 10px 30px 50px 30px;
+    border-radius: 15px;
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.entradas input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 17px;
+    width: 100%;
+    border-radius: 3px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+::placeholder { color: rgba(245, 245, 245, 0.207); }
+
+.entradas a {
+    /* color: rgb(255, 255, 255); */
+    padding : 0px;
+    margin: 0px;
+    border: none;
+    cursor:default;
+}
+
+.body .SeccionCentral .entradas .boton{
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #0037ff;
+    border:none;
+    border-radius: 5px;
+}
