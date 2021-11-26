@@ -29,7 +29,7 @@ export default function LG() {
                         name="Pass"
                     />
 
-                    <a href="/home">
+                    <a href="/Facturas">
                         <button type="button" className="boton">Entrar</button>
                     </a>
                     

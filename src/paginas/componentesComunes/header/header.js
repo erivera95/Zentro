@@ -6,9 +6,9 @@ function HD(props) {
         <header className="header">
             <nav>
                 <ul>
-                    <li><a href="/home">Facturas</a></li>
-                    <li><a href="/">Asignadas</a></li>
-                    <li><a href="/">Autorizacion</a></li>
+                    <li><a href="/Facturas">Facturas</a></li>
+                    <li><a href="/Asignadas">Asignadas</a></li>
+                    <li><a href="/Autorizacion">Autorizacion</a></li>
                     <li><a href="/">Salir</a></li>
                 </ul>
             </nav>

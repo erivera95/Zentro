@@ -2,6 +2,8 @@
 import React from 'react';
 import LG from './paginas/Login/login';
 import HM from './paginas/home/home';
+import ASIG from './paginas/Asginadas/asignadas';
+import AUTH from './paginas/Autorizacion/autorizacion';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -13,7 +15,9 @@ function App() {
         <Routes>
           {/* Ruta de Home que entra al login */}
           <Route path="/" element={<LG />} />
-          <Route path="/home" element={<HM />} />
+          <Route path="/Facturas" element={<HM />} />
+          <Route path="/Asignadas" element={<ASIG />} />
+          <Route path="/Autorizacion" element={<AUTH />} />
 
 
 
